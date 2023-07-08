@@ -9,11 +9,32 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 </head>
 
 <body>
 
-    <section class="manali1">
+    <nav class="navbar navbar-expand-lg fixed-top nav-bar">
+        <div class="container-fluid">
+            <h1>INDUSTRIAL VISIT</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="manali1 container-fliud">
         <div class="row">
             <div class="col-lg-4"></div>
             <div class="col-lg-8">
@@ -28,7 +49,7 @@
         <div class="space"></div>
     </section>
 
-    <section class="manali2">
+    <section class="manali2 container-fliud">
         <div class="row">
             <div class="col-lg">
                 <span class="info-span">Four Day Manali Industrial Tour Itinerary</span>
@@ -72,7 +93,7 @@
         </div>
     </section>
 
-    <section class="manali3">
+    <section class="manali3 container-fliud">
         <div class="row">
             <div class="col-lg title3">
                 <h1>Travel</h1>
@@ -121,18 +142,90 @@
         </div>
     </section>
 
-    <section class="sixth">
+    <section class="container-fliud second">
+        <h2 class="title">DESTINATIONS</h2>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide con">
+                    <div class="v-card">
+                        <div><a href="manali.html"><img class="img-fluid v-img" src="img/visit/1.png" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="swiper-slide con">
+                    <div class="v-card">
+                        <div><a href="goa.html"><img class="img-fluid v-img" src="img/visit/2.png" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="swiper-slide con">
+                    <div class="v-card">
+                        <div><a href="kerela.html"><img class="img-fluid v-img" src="img/visit/3.png" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="swiper-slide con">
+                    <div class="v-card">
+                        <div><a href="uttrakhand.html"><img class="img-fluid v-img" src="img/visit/4.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide con">
+                    <div class="v-card">
+                        <div><a href="ooty.html"><img class="img-fluid v-img" src="img/visit/5.png" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="swiper-slide con">
+                    <div class="v-card">
+                        <div><a href="chennai.html"><img class="img-fluid v-img" src="img/visit/6.png" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="container-fliud qna">
+        <h1 class="title">QnA</h1>
+        <div class="q-b">
+            <details>
+                <summary>
+                    <h3>Here is your summary content</h3>
+                </summary>
+                <div>
+                    <p class="q-p">We've put all our other content in a containing div.</p>
+                </div>
+            </details>
+            <details>
+                <summary>
+                    <h3>Here is your summary content</h3>
+                </summary>
+                <div>
+                    <p class="q-p">We've put all our other content in a containing div.</p>
+                </div>
+            </details>
+            <details>
+                <summary>
+                    <h3>Here is your summary content</h3>
+                </summary>
+                <div>
+                    <p class="q-p">We've put all our other content in a containing div.</p>
+                </div>
+            </details>
+        </div>
+        <div class="bottom"></div>
+        <div class="blue"></div>
+    </section>
+
+    <section class="sixth" id="contact">
         <div class="top"></div>
         <div class="row">
-            <div class="col-lg-4 f3 text-center">
+            <div class="col-lg-4 f3 text-center container-fliud">
                 <h1 class="title">Get In Touch</h1>
                 <div class="contact1">
                     <p>500 Terry Francine St. <br> San Francisco, CA 94158</p>
                 </div>
                 <div class="contact2">
                     <span>+91 12345-67890</span>
-                <br>
-                <span>example@gmail.com</span>
+                    <br>
+                    <span>example@gmail.com</span>
                 </div>
                 <div class="contact3">
                     <div class="row">
@@ -175,6 +268,10 @@
             </div>
         </div>
     </section>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
