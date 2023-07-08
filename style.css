@@ -187,26 +187,114 @@ html {
 
 .f3 {
     background-color: #2A7C6F;
-    width: 35%;
+    padding-top: 5rem;
 }
-
+.sixth h1{
+    color: #2A7C6F;
+    -webkit-text-stroke: 2px #fff;
+}
+.contact1{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 5rem;
+}
+.contact2{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 3rem;
+}
+.contact3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 5rem;
+}
+.contact3 a{
+    color: #fff;
+    text-decoration: none;
+}
 .f4 {
-    width: 65%;
+    padding: 2rem;
+    margin: 0 2rem;
 }
 
-.manali1{
+.f4 label {
+    color: #2A7C6F;
+    padding-bottom: 0.2rem;
+}
+textarea{
+    border: 2px solid #ccc !important;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+textarea:focus{
+    border: 2px solid #2A7C6F !important;
+    box-shadow: none !important;
+}
+input[type=text] {
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    box-shadow: none !important;
+}
+
+input[type=text]:focus {
+    border: 2px solid #2A7C6F;
+}
+input[type=email] {
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    box-shadow: none !important;
+}
+
+input[type=email]:focus {
+    border: 2px solid #2A7C6F;
+}
+
+.btn1 {
+    margin-top: 2rem;
+}
+
+.send {
+    padding: 0 1rem;
+    color: #fff;
+    background-color: #2A7C6F;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.send:hover {
+    color: #2A7C6F;
+    background-color: #fff;
+    border: 1px solid #2A7C6F;
+}
+
+.form-group {
+    padding: 0.2rem;
+}
+
+.manali1 {
     background-image: url(img/bg/manali.jpg);
     background-size: cover;
 }
-.kerela1{
+
+.kerela1 {
     background-image: url(img/bg/kerela.jpg);
     background-size: cover;
 }
-.goa1{
+
+.goa1 {
     background-image: url(img/bg/goa.jpg);
     background-size: cover;
 }
-.con-m{
+
+.con-m {
     height: 40rem;
     width: 25rem;
     padding: 2rem;
@@ -257,18 +345,21 @@ html {
     text-align: center;
     padding-top: 3rem;
 }
-.manali2{
+
+.manali2 {
     margin: 4rem;
 }
-.manali3{
+
+.manali3 {
     margin: 4rem;
 }
-.img-c{
+
+.img-c {
     border-radius: 1rem;
     transition: transform 1s, filter 3s ease-in;
 }
 
-.img-b{
+.img-b {
     margin: 2rem;
 }
 
@@ -276,27 +367,31 @@ html {
     transform: scale(1.1);
 }
 
-.info-b{
+.info-b {
     margin: 2rem;
     text-align: justify;
     color: #2A7C6F;
     font-weight: 500;
 }
-.info-span{
+
+.info-span {
     font-size: 29px;
     color: #fff;
     -webkit-text-stroke: 2px #2A7C6F;
     margin: 2rem;
 }
-.title3{
+
+.title3 {
     padding: 10rem 0;
 }
-.title3 h1{
+
+.title3 h1 {
     color: #fff;
     -webkit-text-stroke: 2px #2A7C6F;
     font-size: 3rem;
 }
-.title3 h2{
+
+.title3 h2 {
     color: #2A7C6F;
     font-size: 3.5rem;
     padding-top: 2rem;
