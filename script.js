@@ -8,7 +8,7 @@ var swiper = new Swiper(".review-slider", {
     grabCursor: true,
     breakpoints: {
         0: {
-          slidesPerView: 1,
+          slidesPerView: 2,
         },
         768: {
           slidesPerView: 3,
