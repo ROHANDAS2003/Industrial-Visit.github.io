@@ -50,8 +50,38 @@
     </div>
 
 
-    <!-- Switcher Area -->
-    <?php include './component/switcher.html'; ?>
+    <!-- Switcher Area Start -->
+    <div class="switcher__area">
+        <div class="switcher__icon">
+            <button id="switcher_open"><i class="fa-solid fa-gear"></i></button>
+            <button id="switcher_close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+
+        <div class="switcher__items">
+            <div class="switcher__item">
+                <div class="switch__title-wrap">
+                    <h2 class="switcher__title">Cursor</h2>
+                </div>
+                <div class="switcher__btn">
+                    <select name="cursor-style" id="cursor_style">
+                        <option value="1">default</option>
+                        <option selected value="2">animated</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="switcher__item">
+                <div class="switch__title-wrap">
+                    <h2 class="switcher__title">Language Support</h2>
+                </div>
+                <div class="switcher__btn lang_dir wc-col-2">
+                    <button class="active" data-mode="ltr">LTR</button>
+                    <button data-mode="rtl">RTL</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Switcher Area End -->
 
 
 
@@ -63,8 +93,116 @@
     <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
 
 
-    <!-- header  -->
-    <?php include './component/header.html'; ?>
+<!-- Header area start -->
+<header class="header__area-3">
+    <div class="header__inner-3">
+        <div class="header__logo-2">
+            <a href="index.php" class="logo-dark"><img src="assets/imgs/logo/logo.png" alt="Site Logo"></a>
+            <a href="index.php" class="logo-light"><img src="assets/imgs/logo/logo.png"
+                    alt="Site Logo"></a>
+        </div>
+        <div class="header__nav-2">
+            <ul class="main-menu-3 menu-anim">
+                <li class="has-megamenu"><a href="index.php">Home</a></li>
+
+                <li class="has-megamenu"><a href="about.php">About</a></li>
+
+                <li><a class="has-megamenu">Services</a>
+                    <ul class="main-dropdown">
+                        <li><a href="#">Educational Tour</a></li>
+                        <li><a href="#">Website Development</a></li>
+                        <li><a href="#">Application Development</a></li>
+                        <li><a href="#">Content Writing</a></li>
+                        <li><a href="#">Graphic Designing</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="portfolio.php">Portfolio</a></li>
+
+                <li><a href="contact.php">Contact</a></li>
+
+            </ul>
+        </div>
+        <div class="header__nav-icon-3">
+            <button id="open_offcanvas"><img src="assets/imgs/icon/menu-black.png" alt="Menubar Icon"></button>
+        </div>
+    </div>
+</header>
+<!-- Header area end -->
+
+
+<!-- Offcanvas area start -->
+<div class="offcanvas__area">
+    <div class="offcanvas__body">
+        <div class="offcanvas__left">
+            <div class="offcanvas__logo">
+                <a href="index.php"><img src="assets/imgs/logo/logo.png" alt="Offcanvas Logo"></a>
+            </div>
+            <div class="offcanvas__social">
+                <h3 class="social-title">Follow Us</h3>
+                <ul>
+                    <li><a href="#">Linkedin</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </div>
+            <div class="offcanvas__links">
+                <ul>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="contact.php">contact</a></li>
+                    <li><a href="career.html">Career</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="offcanvas__mid">
+            <div class="offcanvas__menu-wrapper">
+                <nav class="offcanvas__menu">
+                    <ul class="menu-anim">
+                        <li><a href="index.php">Home</a></li>
+
+                        <li><a href="about.php">About</a></li>
+
+                        <li><a>Service</a>
+                            <ul>
+                                <li><a href="#">Educational Tour</a></li>
+                                <li><a href="#">Website Development</a></li>
+                                <li><a href="#">Application Development</a></li>
+                                <li><a href="#">Content Writing</a></li>
+                                <li><a href="#">Graphic Designing</a></li>
+                                <li><a href="#">Digital Marketing</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="portfolio.php">Portfolio</a></li>
+
+                        <li><a href="contact.php">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="offcanvas__right">
+            <div class="offcanvas__search">
+                <div class="offcanvas__contact">
+                    <h3>Get in touch</h3>
+                    <ul>
+                        <li><a href="tel:917877568379">+(91) 7877568379</a></li>
+                        <li><a href="tel:919828250462">+(91) 9828250462</a></li>
+                        <li><a href="mailto:kunal.qurikvoy@gmail.com">kunal.qurikvoy@gamil.com</a></li>
+                        <li><a href="mailto:rohan.qurikvoy@gmail.com">rohan.qurikvoy@gamil.com</a></li>
+                        <li>230 Norman Street New York, QC (USA) H8R 1A1</li>
+                    </ul>
+                </div>
+            </div>
+            <img src="assets/imgs/shape/11.png" alt="shape" class="shape-1">
+            <img src="assets/imgs/shape/12.png" alt="shape" class="shape-2">
+        </div>
+        <div class="offcanvas__close">
+            <button type="button" id="close_offcanvas"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </div>
+</div>
+<!-- Offcanvas area end -->
 
 
     <div id="smooth-wrapper">
@@ -295,8 +433,71 @@
                 </section>
                 <!-- Service area end -->
 
-                <!-- Testimonal -->
-                <?php include './component/testimonal.html'; ?>
+<!-- Testimonial area start -->
+<section class="testimonial__area-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-12">
+                <div class="swiper testimonial__slider-3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide testimonial__slide-3">
+                            <p style="color: #000;">When we talk about Alts, we do not mean a typical business partner, but
+                                rather a team that collaborates with us daily, always there for us when
+                                we encounter difficulties and celebrate achievements. We see in
+                                Alts our best ally for success!</p>
+                            <h2 class="client__name-3">Maria D. Halk</h2>
+                            <h3 class="client__role-3">Managing Director</h3>
+                        </div>
+                        <div class="swiper-slide testimonial__slide-3">
+                            <p style="color: #000;">When we talk about Alts, we do not mean a typical business partner, but
+                                rather a team that collaborates with us daily, always there for us when
+                                we encounter difficulties and celebrate achievements. We see in
+                                Alts our best ally for success!</p>
+                            <h2 class="client__name-3">Maria D. Halk</h2>
+                            <h3 class="client__role-3">Managing Director</h3>
+                        </div>
+                        <div class="swiper-slide testimonial__slide-3">
+                            <p style="color: #000;">When we talk about Alts, we do not mean a typical business partner, but
+                                rather a team that collaborates with us daily, always there for us when
+                                we encounter difficulties and celebrate achievements. We see in
+                                Alts our best ally for success!</p>
+                            <h2 class="client__name-3">Maria D. Halk</h2>
+                            <h3 class="client__role-3">Managing Director</h3>
+                        </div>
+                        <div class="swiper-slide testimonial__slide-3">
+                            <p style="color: #000;">When we talk about Alts, we do not mean a typical business partner, but
+                                rather a team that collaborates with us daily, always there for us when
+                                we encounter difficulties and celebrate achievements. We see in
+                                Alts our best ally for success!</p>
+                            <h2 class="client__name-3">Maria D. Halk</h2>
+                            <h3 class="client__role-3">Managing Director</h3>
+                        </div>
+                        <div class="swiper-slide testimonial__slide-3">
+                            <p style="color: #000;">When we talk about Alts, we do not mean a typical business partner, but
+                                rather a team that collaborates with us daily, always there for us when
+                                we encounter difficulties and celebrate achievements. We see in
+                                Alts our best ally for success!</p>
+                            <h2 class="client__name-3">Maria D. Halk</h2>
+                            <h3 class="client__role-3">Managing Director</h3>
+                        </div>
+                    </div>
+                    <div class="next-button swipper-btn"><i class="fa-solid fa-arrow-left"></i></div>
+                    <div class="prev-button swipper-btn"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="testimonial__images-3 animation_image_zoom">
+        <img src="assets/imgs/testimonial/3/1.jpg" alt="testimonial Image" class="testimonial3__img">
+        <img src="assets/imgs/testimonial/3/2.jpg" alt="testimonial Image" class="testimonial3__img-2">
+        <img src="assets/imgs/testimonial/3/3.jpg" alt="testimonial Image" class="testimonial3__img-3">
+        <img src="assets/imgs/testimonial/3/4.jpg" alt="testimonial Image" class="testimonial3__img-4">
+        <img src="assets/imgs/testimonial/3/5.jpg" alt="testimonial Image" class="testimonial3__img-5">
+        <img src="assets/imgs/testimonial/3/6.jpg" alt="testimonial Image" class="testimonial3__img-6">
+    </div>
+</section>
+<!-- Testimonial area end -->
+
 
 
                 <!-- Portfolio area start -->
@@ -498,11 +699,194 @@
                 </section>
                 <!-- Workflow area end -->
 
-                <!-- FAQ -->
-                <?php include './component/faq.html'; ?>
+<!-- FAQ area start -->
+<section class="faq__area-6">
+    <div class="container g-0 line pt-130 pb-140">
+        <div class="line-3"></div>
 
-                <!-- footer -->
-                <?php include './component/footer.html'; ?>
+        <div class="row">
+            <div class="col-xxl-12">
+                <div class="sec-title-wrapper">
+                    <h2 class="sec-title-2 animation__char_come">FAQ</h2>
+                    <p class="">Frequently asked question (FAQ) <br> pages to find answars.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xxl-12">
+                <div class="faq__list-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Design should enrich our day
+        </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>People know what an FAQ is, so make that your page title. Don’t overcomplicate things by calling it “Good to Know” or “More Info”. Sometimes people put the frequently asked questions section on their
+                                        Contact page, but you can create your own page and put it right in your website navigation menu or website footer so it’s easy to find. Getting a straight, quick answer to your question is a relief.
+                                        So keep answers to a short paragraph if you can, less than 100 words. Answer the entire question in the FAQ without linking away to another page
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Bring their individual experience and creative
+        </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>People know what an FAQ is, so make that your page title. Don’t overcomplicate things by calling it “Good to Know” or “More Info”. Sometimes people put the frequently asked questions section on their
+                                        Contact page, but you can create your own page and put it right in your website navigation menu or website footer so it’s easy to find. Getting a straight, quick answer to your question is a relief.
+                                        So keep answers to a short paragraph if you can, less than 100 words. Answer the entire question in the FAQ without linking away to another page
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Human centred design to challenges
+        </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>People know what an FAQ is, so make that your page title. Don’t overcomplicate things by calling it “Good to Know” or “More Info”. Sometimes people put the frequently asked questions section on their
+                                        Contact page, but you can create your own page and put it right in your website navigation menu or website footer so it’s easy to find. Getting a straight, quick answer to your question is a relief.
+                                        So keep answers to a short paragraph if you can, less than 100 words. Answer the entire question in the FAQ without linking away to another page
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Design should enrich our day
+        </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>People know what an FAQ is, so make that your page title. Don’t overcomplicate things by calling it “Good to Know” or “More Info”. Sometimes people put the frequently asked questions section on their
+                                        Contact page, but you can create your own page and put it right in your website navigation menu or website footer so it’s easy to find. Getting a straight, quick answer to your question is a relief.
+                                        So keep answers to a short paragraph if you can, less than 100 words. Answer the entire question in the FAQ without linking away to another page
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          Developing core web applications
+        </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>People know what an FAQ is, so make that your page title. Don’t overcomplicate things by calling it “Good to Know” or “More Info”. Sometimes people put the frequently asked questions section on their
+                                        Contact page, but you can create your own page and put it right in your website navigation menu or website footer so it’s easy to find. Getting a straight, quick answer to your question is a relief.
+                                        So keep answers to a short paragraph if you can, less than 100 words. Answer the entire question in the FAQ without linking away to another page
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- FAQ area end -->
+
+<!-- Footer area start -->
+<footer class="footer__area" data-scroll-section>
+    <div class="footer__top">
+        <div class="container footer-line"></div>
+        <img src="assets/imgs/thumb/footer.jpg" alt="Footer Image" data-speed="0.5">
+    </div>
+
+    <div class="footer__btm">
+        <div class="container">
+            <div class="row footer__row">
+                <div class="col-xxl-12">
+                    <div class="footer__inner">
+                        <div class="footer__widget">
+                            <img class="footer__logo" src="assets/imgs/logo/logo.png" alt="Footer Logo">
+                            <p>Qurikvoy is your affordable option for Industrial visit cum Tour, also Qurikvoy is a
+                                faboulous digital agency with expert employees.
+                            </p>
+                            <ul class="footer__social">
+                                <li><a href="#"><span><i class="fa-brands fa-linkedin"></i></span></a></li>
+                                <li><a href="#"><span><i class="fa-brands fa-instagram"></i></span></a></li>
+                                <li><a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__widget-2">
+                            <h2 class="footer__widget-title">Pages</h2>
+                            <ul class="footer__link">
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="about.php">About Us</a></li>
+                                <li><a href="portfolio.php">Portfoliio</a></li>
+                                <li><a href="contact.php">contact</a></li>
+                                <li><a href="career.php">Career</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__widget-2">
+                            <h2 class="footer__widget-title">Services</h2>
+                            <ul class="footer__link">
+                                <li><a href="#">Educational Visit</a></li>
+                                <li><a href="#">Website Development</a></li>
+                                <li><a href="#">Application Development</a></li>
+                                <li><a href="#">Content Writing</a></li>
+                                <li><a href="#">Graphic Designing</a></li>
+                                <li><a href="#">Digital Marketing</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__widget-4">
+                            <h2 class="project-title">Have a project in your mind?</h2>
+                            <div class="btn_wrapper">
+                                <a href="contact.html" class="wc-btn-light btn-item btn-hover"><span></span> Share
+                                    With
+                                    us <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                            <ul class="footer__contact">
+                                <li><a style="color: #fff;" href="tel:917877568379">+(91) 7877568379</a></li>
+                                <li><a style="color: #fff;" href="tel:919828250462">+(91) 9828250462</a></li>
+                                <li><a style="color: #fff;" href="mailto:kunal.qurikvoy@gmail.com">kunal.qurikvoy@gamil.com</a></li>
+                                <li><a style="color: #fff;" href="mailto:rohan.qurikvoy@gmail.com">rohan.qurikvoy@gamil.com</a></li>
+                                <li style="color: #fff;">230 Norman Street New York, QC (USA) H8R 1A1</li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__copyright">
+                            <p>© 2024 - 2027 | Alrights reserved by <a href="index.php" target="_blank">Qurikvoy
+                                    Services Pvt. Ltd.</a>
+                            </p>
+                        </div>
+
+                        <div class="footer__subscribe">
+                            <form action="#">
+                                <input type="email" name="email" placeholder="Enter your email">
+                                <button type="submit" class="subs-btn"><i class="fa-solid fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer area end -->
 
 
         </div>
