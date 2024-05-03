@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Axtra HTML5 Template">
+
+    <title>Portfoliio|QurikVoy</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon11.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- All CSS files -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/progressbar.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.min.css">
+    <link rel="stylesheet" href="assets/css/master.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <!-- Cursor Animation -->
+    <div class="cursor1"></div>
+    <div class="cursor2"></div>
+
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loading">
+            <div class="bar bar1"></div>
+            <div class="bar bar2"></div>
+            <div class="bar bar3"></div>
+            <div class="bar bar4"></div>
+            <div class="bar bar5"></div>
+            <div class="bar bar6"></div>
+            <div class="bar bar7"></div>
+            <div class="bar bar8"></div>
+        </div>
+    </div>
+
+
+    <!-- Switcher Area Start -->
+    <div class="switcher__area">
+        <div class="switcher__icon">
+            <button id="switcher_open"><i class="fa-solid fa-gear"></i></button>
+            <button id="switcher_close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+
+        <div class="switcher__items">
+            <div class="switcher__item">
+                <div class="switch__title-wrap">
+                    <h2 class="switcher__title">Cursor</h2>
+                </div>
+                <div class="switcher__btn">
+                    <select name="cursor-style" id="cursor_style">
+                        <option value="1">default</option>
+                        <option selected value="2">animated</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="switcher__item">
+                <div class="switch__title-wrap">
+                    <h2 class="switcher__title">Language Support</h2>
+                </div>
+                <div class="switcher__btn lang_dir wc-col-2">
+                    <button class="active" data-mode="ltr">LTR</button>
+                    <button data-mode="rtl">RTL</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Switcher Area End -->
+
+
+    <!-- Scroll Smoother -->
+    <div class="has-smooth" id="has_smooth"></div>
+
+
+    <!-- Go Top Button -->
+    <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+<!-- Header area start -->
+<header class="header__area-3">
+    <div class="header__inner-3">
+        <div class="header__logo-2">
+            <a href="index.html" class="logo-dark"><img src="assets/imgs/logo/logo.png" alt="Site Logo"></a>
+            <a href="index.html" class="logo-light"><img src="assets/imgs/logo/logo.png"
+                    alt="Site Logo"></a>
+        </div>
+        <div class="header__nav-2">
+            <ul class="main-menu-3 menu-anim">
+                <li class="has-megamenu"><a href="index.html">Home</a></li>
+
+                <li class="has-megamenu"><a href="about.html">About</a></li>
+
+                <li><a class="has-megamenu">Services</a>
+                    <ul class="main-dropdown">
+                        <li><a href="#">Educational Tour</a></li>
+                        <li><a href="#">Website Development</a></li>
+                        <li><a href="#">Application Development</a></li>
+                        <li><a href="#">Content Writing</a></li>
+                        <li><a href="#">Graphic Designing</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="portfolio.html">Portfolio</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </div>
+        <div class="header__nav-icon-3">
+            <button id="open_offcanvas"><img src="assets/imgs/icon/menu-black.png" alt="Menubar Icon"></button>
+        </div>
+    </div>
+</header>
+<!-- Header area end -->
+
+
+<!-- Offcanvas area start -->
+<div class="offcanvas__area">
+    <div class="offcanvas__body">
+        <div class="offcanvas__left">
+            <div class="offcanvas__logo">
+                <a href="index.html"><img src="assets/imgs/logo/logo.png" alt="Offcanvas Logo"></a>
+            </div>
+            <div class="offcanvas__social">
+                <h3 class="social-title">Follow Us</h3>
+                <ul>
+                    <li><a href="#">Linkedin</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </div>
+            <div class="offcanvas__links">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="career.html">Career</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="offcanvas__mid">
+            <div class="offcanvas__menu-wrapper">
+                <nav class="offcanvas__menu">
+                    <ul class="menu-anim">
+                        <li><a href="index.html">Home</a></li>
+
+                        <li><a href="about.html">About</a></li>
+
+                        <li><a>Service</a>
+                            <ul>
+                                <li><a href="#">Educational Tour</a></li>
+                                <li><a href="#">Website Development</a></li>
+                                <li><a href="#">Application Development</a></li>
+                                <li><a href="#">Content Writing</a></li>
+                                <li><a href="#">Graphic Designing</a></li>
+                                <li><a href="#">Digital Marketing</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="portfolio.html">Portfolio</a></li>
+
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="offcanvas__right">
+            <div class="offcanvas__search">
+                <div class="offcanvas__contact">
+                    <h3>Get in touch</h3>
+                    <ul>
+                        <li><a href="tel:917877568379">+(91) 7877568379</a></li>
+                        <li><a href="tel:919828250462">+(91) 9828250462</a></li>
+                        <li><a href="mailto:kunal.qurikvoy@gmail.com">kunal.qurikvoy@gamil.com</a></li>
+                        <li><a href="mailto:rohan.qurikvoy@gmail.com">rohan.qurikvoy@gamil.com</a></li>
+                        <li>230 Norman Street New York, QC (USA) H8R 1A1</li>
+                    </ul>
+                </div>
+            </div>
+            <img src="assets/imgs/shape/11.png" alt="shape" class="shape-1">
+            <img src="assets/imgs/shape/12.png" alt="shape" class="shape-2">
+        </div>
+        <div class="offcanvas__close">
+            <button type="button" id="close_offcanvas"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </div>
+</div>
+<!-- Offcanvas area end -->
+
+
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <main>
+
+                <!-- show case -->
+                <section class="showcase__area-4 mt-60 pb-120">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3">
+                                <div class="showcase__menu-4">
+                                    <button data-filter="all">show all</button>
+                                    <button data-filter=".calender">Educational Tour</button>
+                                    <button data-filter=".game">Web Development</button>
+                                    <button data-filter=".brochure">App Development</button>
+                                    <button data-filter=".logos">Content Writing</button>
+                                    <button data-filter=".posters">Graphic Designing</button>
+                                    <button data-filter=".flyer">Digital Marketing</button>
+                                </div>
+                            </div>
+
+                            <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9">
+                                <div class="showcase__items-4 showcase-mixitup">
+                                    <div class="showcase__item-4 fade_bottom_2 mix calender brochure">
+                                        <a href="#"><img src="assets/imgs/portfolio/portfolio-home-8/logo-01.jpg"
+                                                alt="logos1"></a>
+                                    </div>
+                                    <div class="showcase__item-4 fade_bottom_2 mix game brochure">
+                                        <a href="#"><img src="assets/imgs/portfolio/portfolio-home-8/logo-02.jpg"
+                                                alt="logos1"></a>
+                                    </div>
+                                    <div class="showcase__item-4 fade_bottom_2 mix calender logos">
+                                        <a href="#"><img src="assets/imgs/portfolio/portfolio-home-8/logo-03.jpg"
+                                                alt="logos1"></a>
+                                    </div>
+                                    <div class="showcase__item-4 fade_bottom_2 mix logos">
+                                        <a href="#"><img src="assets/imgs/portfolio/portfolio-home-8/logo-04.jpg"
+                                                alt="logos1"></a>
+                                    </div>
+                                    <div class="showcase__item-4 fade_bottom_2 mix flyer brochure">
+                                        <a href="#"><img src="assets/imgs/portfolio/portfolio-home-8/logo-05.jpg"
+                                                alt="logos1"></a>
+                                    </div>
+                                    <div class="showcase__item-4 fade_bottom_2 mix posters">
+                                        <a href="#"><img src="assets/imgs/portfolio/portfolio-home-8/logo-06.jpg"
+                                                alt="logos1"></a>
+                                    </div>
+                                    <div class="showcase__item-4 fade_bottom_2 mix calender game">
+                                        <a href="#"><img src="assets/imgs/portfolio/portfolio-home-8/logo-07.jpg"
+                                                alt="logos1"></a>
+                                    </div>
+                                    <div class="showcase__item-4 fade_bottom_2 mix game posters">
+                                        <a href="#"><img src="assets/imgs/portfolio/portfolio-home-8/logo-08.jpg"
+                                                alt="logos1"></a>
+                                    </div>
+                                    <div class="showcase__item-4 fade_bottom_2 mix flyer">
+                                        <a href="#"><img src="assets/imgs/portfolio/portfolio-home-8/logo-09.jpg"
+                                                alt="logos1"></a>
+                                    </div>
+                                    <div class="showcase__item-4 fade_bottom_2 mix logos game">
+                                        <a href="#"><img src="assets/imgs/portfolio/portfolio-home-8/logo-10.jpg"
+                                                alt="logos1"></a>
+                                    </div>
+                                    <div class="showcase__item-4 fade_bottom_2 mix brochure posters">
+                                        <a href="#"><img src="assets/imgs/portfolio/portfolio-home-8/logo-11.jpg"
+                                                alt="logos1"></a>
+                                    </div>
+                                    <div class="showcase__item-4 fade_bottom_2 mix calender posters">
+                                        <a href="#"><img src="assets/imgs/portfolio/portfolio-home-8/logo-12.jpg"
+                                                alt="logos1"></a>
+                                    </div>
+                                    <div class="showcase__item-4 fade_bottom_2 mix game logos flyer">
+                                        <a href="#"><img src="assets/imgs/portfolio/portfolio-home-8/logo-13.jpg"
+                                                alt="logos1"></a>
+                                    </div>
+                                    <div class="showcase__item-4 fade_bottom_2 mix brochure">
+                                        <a href="#"><img src="assets/imgs/portfolio/portfolio-home-8/logo-14.jpg"
+                                                alt="logos1"></a>
+                                    </div>
+                                    <div class="showcase__item-4 fade_bottom_2 mix posters flyer">
+                                        <a href="#"><img src="assets/imgs/portfolio/portfolio-home-8/logo-15.jpg"
+                                                alt="logos1"></a>
+                                    </div>
+                                    <div class="showcase__item-4 fade_bottom_2 mix calender brochure">
+                                        <a href="#"><img src="assets/imgs/portfolio/portfolio-home-8/logo-16.jpg"
+                                                alt="logos1"></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- /show case -->
+            </main>
+
+<!-- CTA area start -->
+<section class="cta__area cta__area-7 pt-130">
+    <div class="container pb-110">
+        <div class="row">
+            <div class="col-xxl-12">
+                <div class="cta__content">
+                    <p class="cta__sub-title" style="color: #fff;">Work with us</p>
+                    <h2 class="cta__title title-anim">We would love to hear more about your project</h2>
+                    <div class="btn_wrapper">
+                        <a href="contact.html"
+                            class="wc-btn-light btn-hover btn-item"><span></span>Let’s talk us <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- CTA area end -->
+
+<!-- FAQ area start -->
+<section class="faq__area-6">
+    <div class="container g-0 line pt-130 pb-140">
+        <div class="line-3"></div>
+
+        <div class="row">
+            <div class="col-xxl-12">
+                <div class="sec-title-wrapper">
+                    <h2 class="sec-title-2 animation__char_come">FAQ</h2>
+                    <p class="">Frequently asked question (FAQ) <br> pages to find answars.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xxl-12">
+                <div class="faq__list-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Design should enrich our day
+        </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>People know what an FAQ is, so make that your page title. Don’t overcomplicate things by calling it “Good to Know” or “More Info”. Sometimes people put the frequently asked questions section on their
+                                        Contact page, but you can create your own page and put it right in your website navigation menu or website footer so it’s easy to find. Getting a straight, quick answer to your question is a relief.
+                                        So keep answers to a short paragraph if you can, less than 100 words. Answer the entire question in the FAQ without linking away to another page
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Bring their individual experience and creative
+        </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>People know what an FAQ is, so make that your page title. Don’t overcomplicate things by calling it “Good to Know” or “More Info”. Sometimes people put the frequently asked questions section on their
+                                        Contact page, but you can create your own page and put it right in your website navigation menu or website footer so it’s easy to find. Getting a straight, quick answer to your question is a relief.
+                                        So keep answers to a short paragraph if you can, less than 100 words. Answer the entire question in the FAQ without linking away to another page
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Human centred design to challenges
+        </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>People know what an FAQ is, so make that your page title. Don’t overcomplicate things by calling it “Good to Know” or “More Info”. Sometimes people put the frequently asked questions section on their
+                                        Contact page, but you can create your own page and put it right in your website navigation menu or website footer so it’s easy to find. Getting a straight, quick answer to your question is a relief.
+                                        So keep answers to a short paragraph if you can, less than 100 words. Answer the entire question in the FAQ without linking away to another page
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Design should enrich our day
+        </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>People know what an FAQ is, so make that your page title. Don’t overcomplicate things by calling it “Good to Know” or “More Info”. Sometimes people put the frequently asked questions section on their
+                                        Contact page, but you can create your own page and put it right in your website navigation menu or website footer so it’s easy to find. Getting a straight, quick answer to your question is a relief.
+                                        So keep answers to a short paragraph if you can, less than 100 words. Answer the entire question in the FAQ without linking away to another page
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          Developing core web applications
+        </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>People know what an FAQ is, so make that your page title. Don’t overcomplicate things by calling it “Good to Know” or “More Info”. Sometimes people put the frequently asked questions section on their
+                                        Contact page, but you can create your own page and put it right in your website navigation menu or website footer so it’s easy to find. Getting a straight, quick answer to your question is a relief.
+                                        So keep answers to a short paragraph if you can, less than 100 words. Answer the entire question in the FAQ without linking away to another page
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- FAQ area end -->
+
+<!-- Footer area start -->
+<footer class="footer__area" data-scroll-section>
+    <div class="footer__top">
+        <div class="container footer-line"></div>
+        <img src="assets/imgs/thumb/footer.jpg" alt="Footer Image" data-speed="0.5">
+    </div>
+
+    <div class="footer__btm">
+        <div class="container">
+            <div class="row footer__row">
+                <div class="col-xxl-12">
+                    <div class="footer__inner">
+                        <div class="footer__widget">
+                            <img class="footer__logo" src="assets/imgs/logo/logo.png" alt="Footer Logo">
+                            <p>Qurikvoy is your affordable option for Industrial visit cum Tour, also Qurikvoy is a
+                                faboulous digital agency with expert employees.
+                            </p>
+                            <ul class="footer__social">
+                                <li><a href="#"><span><i class="fa-brands fa-linkedin"></i></span></a></li>
+                                <li><a href="#"><span><i class="fa-brands fa-instagram"></i></span></a></li>
+                                <li><a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__widget-2">
+                            <h2 class="footer__widget-title">Pages</h2>
+                            <ul class="footer__link">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="portfolio.html">Portfoliio</a></li>
+                                <li><a href="contact.html">contact</a></li>
+                                <li><a href="career.html">Career</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__widget-2">
+                            <h2 class="footer__widget-title">Services</h2>
+                            <ul class="footer__link">
+                                <li><a href="#">Educational Visit</a></li>
+                                <li><a href="#">Website Development</a></li>
+                                <li><a href="#">Application Development</a></li>
+                                <li><a href="#">Content Writing</a></li>
+                                <li><a href="#">Graphic Designing</a></li>
+                                <li><a href="#">Digital Marketing</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__widget-4">
+                            <h2 class="project-title">Have a project in your mind?</h2>
+                            <div class="btn_wrapper">
+                                <a href="contact.html" class="wc-btn-light btn-item btn-hover"><span></span> Share
+                                    With
+                                    us <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                            <ul class="footer__contact">
+                                <li><a style="color: #fff;" href="tel:917877568379">+(91) 7877568379</a></li>
+                                <li><a style="color: #fff;" href="tel:919828250462">+(91) 9828250462</a></li>
+                                <li><a style="color: #fff;" href="mailto:kunal.qurikvoy@gmail.com">kunal.qurikvoy@gamil.com</a></li>
+                                <li><a style="color: #fff;" href="mailto:rohan.qurikvoy@gmail.com">rohan.qurikvoy@gamil.com</a></li>
+                                <li style="color: #fff;">230 Norman Street New York, QC (USA) H8R 1A1</li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__copyright">
+                            <p>© 2024 - 2027 | Alrights reserved by <a href="index.html" target="_blank">Qurikvoy
+                                    Services Pvt. Ltd.</a>
+                            </p>
+                        </div>
+
+                        <div class="footer__subscribe">
+                            <form action="#">
+                                <input type="email" name="email" placeholder="Enter your email">
+                                <button type="submit" class="subs-btn"><i class="fa-solid fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer area end -->
+
+
+        </div>
+    </div>
+
+
+    <!-- All JS files -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/counter.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/ScrollToPlugin.min.js"></script>
+    <script src="assets/js/ScrollSmoother.min.js"></script>
+    <script src="assets/js/SplitText.min.js"></script>
+    <script src="assets/js/chroma.min.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
+    <script src="assets/js/vanilla-tilt.js"></script>
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
